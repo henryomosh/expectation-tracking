@@ -1,23 +1,12 @@
-# 42-test-python-django-vue
+# Expectation tracking Python-Django, Vue.js 3
 
-42cc Test Assignment for Python/Django/Vue.js.
+Team expectation tracking
 
-A Django 3+ project template.
+
 
 ## System requirements
 
 * global: yarn, node (tested on v15), python>=3.7 (tested on 3.9) *OR* docker
-
-## Code/deployment requirements
-
-* management commands should be proxied to single word make commands, e.g. make test
-* app should be deployed on a server of your choice (heroku, pythonanywhere, aws, etc.)
-* USE ABSOLUTE IMPORTS ALWAYS EVERYWHERE (unless it's init, and you're exporting sibling modules)
-* NEVER LEAVE COMMENTED-OUT CODE
-* Finished? Run `flake8 .`, `make eslint`, `make test`. Make a note, stick it somewhere, bind it to hotkey. Or better
-    set your editor to autoformat code, for backend we're using black, and it has daemon for this, google a plugin for
-    your editor. The same goes for frontend.
-* Branch naming: `t<number>_short_description`. `short_description` **means** short one.
 
 ## Initial setup
 You can develop the app in a Docker container or directly on your host, check `.env.example`
